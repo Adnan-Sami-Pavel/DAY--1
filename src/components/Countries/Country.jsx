@@ -1,9 +1,9 @@
 import React from 'react';
 import './Country.css';
-const Country = () => {
+const Country = (props) => {
     return (
         <div>
-            <h2>Countries in others file.</h2>
+           
         </div>
     );
 };
