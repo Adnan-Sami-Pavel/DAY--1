@@ -1,4 +1,11 @@
+.contents img{
+    height: 150px;
+    width: 100px;
+}
 .contents{
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    text-align: start;
 }
