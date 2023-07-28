@@ -15,7 +15,7 @@ const LoadCountries = () => {
             <h2>Total countries: {countries.length}</h2>
             <div className='card'>
             {
-                countries.map(country => <Country props={country}></Country>)
+                countries.map(country => <Country key={country.cca3} country={country}></Country>)
             }
             </div>
             
